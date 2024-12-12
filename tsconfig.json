@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",             // Modern JS features
+    "module": "CommonJS",             // Allows using import/export
+    "moduleResolution": "node",     // Resolve modules in node-style
+    "outDir": "dist",               // Output folder after compilation
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,        // Enables compatibility between ES modules and CommonJS
+    "skipLibCheck": true,           // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,
+    "strict": true                  // Enable all strict type-checking options
+  },
+  "include": ["./**/*"],          // Include all .ts files in src
+  "exclude": ["node_modules"]       // Exclude node_modules
+}
